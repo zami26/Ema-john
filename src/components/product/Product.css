@@ -1,0 +1,35 @@
+.product {
+    height: 510px;
+    width: 300px;
+    border: 1px solid #95A0A5;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 286px;
+    height: 286px;
+    padding: 7px;
+}
+
+.product-info {
+    padding: 0 14px;
+}
+
+.product-info p {
+    margin-top: 0;
+}
+
+.card-btn {
+    width: 100%;
+    background-color: #ffe0e3;
+    border: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.product-name {
+    font-family: 'lota';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
