@@ -3,6 +3,7 @@
     width: 300px;
     border: 1px solid #95A0A5;
     border-radius: 8px;
+    position: relative;
 }
 
 .product img {
@@ -17,6 +18,7 @@
 
 .product-info p {
     margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .card-btn {
@@ -24,6 +26,21 @@
     background-color: #ffe0e3;
     border: none;
     border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn p {
+    margin-right: 8px;
+}
+
+.card-btn:hover {
+    background-color: orange;
+    color: white;
+    font-weight: 900;
 }
 
 .product-name {
